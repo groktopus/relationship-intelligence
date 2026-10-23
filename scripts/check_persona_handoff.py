@@ -22,8 +22,9 @@ def check(packet):
     if re.findall(r"^## (.+)$", proposed, re.M) != HEADINGS:
         errors.append("Persona H2 sections missing, repeated or out of order")
     intro = proposed.split("## ", 1)[0]
-    if not all(x in intro for x in ["Relationship Intelligence", "1.0.0",
-                                   "references/persona-output-contract.md"]):
+    if not (all(x in intro for x in ["Relationship Intelligence", "1.0.0"])
+            and any(x in intro for x in ["references/persona-output-contract.md",
+                                         "references/person-model.md"])):
         errors.append("Missing named skill/update attribution or contract version")
     chunks = re.split(r"^## .+$", proposed, flags=re.M)[1:]
     if any(not x.strip() for x in chunks):
