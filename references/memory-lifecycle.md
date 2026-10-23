@@ -18,6 +18,8 @@ During DIGEST, identify what was actually discussed, what remains unanswered and
 
 ## Maintain an evolving model
 
+Use [Persona output contract](persona-output-contract.md) for stable formatting, named skill attribution, writer handoff and semantic readback acceptance. Preserve one current section within the existing authoritative record.
+
 Use [person-model](person-model.md) for the central evidence-grounded understanding: values/priorities, decision criteria, communication patterns, supported motivations, tensions, competing hypotheses and qualitative confidence/gaps. These remain contextual, revisable hypotheses where inference is involved, not facts. Preserve identity anchors, source history and user edits through every revision.
 
 During PREPARE, tie each optional personalized information-gathering move to a meaningful model uncertainty. Privately record what it could teach, plausible interpretations, disconfirmation and limits; offer natural optional follow-up branches rather than scripts or a required sequence. During DIGEST, compare actual evidence against each relevant hypothesis, including counterevidence and context changes. Strengthen, narrow, weaken, retire or leave a hypothesis unresolved only as the evidence warrants; use qualitative confidence with a reason, not invented numerical certainty. Recompute next-preparation implications from the revised understanding. A successful interaction, agreement or sale does not validate a hypothesis.

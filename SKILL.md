@@ -7,7 +7,7 @@ description: >-
   reconcile changing priorities, and bootstrap or maintain relationship memory.
 license: Apache-2.0
 metadata:
-  version: "0.2.0"
+  version: "0.3.0"
 ---
 
 # Relationship Intelligence
@@ -60,6 +60,8 @@ For deeper investigations, route by the kind of evidence and learning opportunit
 - Question purpose, real contextual anchors, observation markers and response-rubric fit: [inquiry design](references/inquiry-design.md). Preserve the chain from competing explanations to evidence and revision; adapted wording does not inherit validation automatically.
 
 ## Recall and evolve memory
+
+For persistent models or writer handoffs, read [Persona output contract 1.0.0](references/persona-output-contract.md). Maintain one attributed `# Persona` section in the existing canonical record, with the fixed subordinate sections and substantive evidence-to-hypothesis reasoning. Verify the actual model survives readback; source review or a facts-only append is not completed persona bootstrap.
 
 Before bootstrap, identity resolution or persistent modification, read [capabilities](references/capabilities.md) and [memory lifecycle](references/memory-lifecycle.md). Use existing host capabilities progressively: graph for connected context, temporal records for change, search for relevant evidence, linked notes for readable knowledge. No particular backend or schema is required.
 

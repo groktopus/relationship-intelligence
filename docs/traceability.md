@@ -51,3 +51,7 @@ Observed statuses and limitations are in release-evidence.md. These mappings est
 - 22: recalled preparation, actual transcript digestion, verified coordinated memory delta and fresh-context next preparation; honest portable fallback.
 
 Repeated-evidence case 2 and contrary-criteria case 4 have separately observed added variants. The original committed 18-case observations remain historical evidence; they are not silently relabeled as 22-case coverage.
+
+## Persona preservation revision 0.3.0
+
+Requirement: one attributed H1 Persona section, stable contract 1.0.0 H2 ordering, substantive observation-to-hypothesis derivation, alternatives, time and adaptive inquiry. Artifacts: references/persona-output-contract.md and assets/persona-section-example.md; core and memory lifecycle route to them. Offline regression: scripts/test_persona_handoff.py checks content loss, chronology substitution, false persistence and conflicting authorities. Actual harness roundtrip evidence is recorded separately; structural checks do not establish semantic quality.

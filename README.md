@@ -100,3 +100,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md), [AGENTS.md](AGENTS.md), [traceability](d
 ## License
 
 [Apache License 2.0](LICENSE) for original skill content and development tools. Linked research remains under its authors' respective rights; source manuscripts are not redistributed.
+
+## Consistent persona sections
+
+Version 0.3.0 adds [Persona output contract 1.0.0](references/persona-output-contract.md): one attributed H1 Persona section in the existing person record, stable subordinate headings, explicit evidence-to-hypothesis derivation, alternatives and answer-dependent next questions. The writer must retrieve and inspect the saved model; chronology-only output or a write receipt is not completion. See the [synthetic example](assets/persona-section-example.md). This changes no connector or memory-backend requirement.
