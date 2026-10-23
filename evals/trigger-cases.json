@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "skill_name": "relationship-intelligence",
+  "purpose": "Activation tests only; selection is distinct from output quality. All prompts synthetic.",
+  "host_setup": {
+    "sources": "Only the synthetic text in this case",
+    "persistence": "none",
+    "permissions": "Read supplied text and answer locally only; no external egress, contact, provider calls or private files"
+  },
+  "cases": [
+    {
+      "id": "T1",
+      "prompt": "PREPARE me before another conversation with Wren using these notes about shared work and changed priorities; give optional useful approaches and their reasons.",
+      "should_trigger": true,
+      "reason": "Relationship preparation and contextual revision"
+    },
+    {
+      "id": "T2",
+      "prompt": "DIGEST this transcript after my conversation. I mixed up two collaborators with the same name in my relationship notes; propose a source-grounded correction.",
+      "should_trigger": true,
+      "reason": "Relationship memory identity maintenance"
+    },
+    {
+      "id": "T3",
+      "prompt": "DIGEST my post-conversation notes: a colleague corrected what I thought they valued. Update my understanding and PREPARE me for a later discussion of value or no fit.",
+      "should_trigger": true,
+      "reason": "Collaborative discovery and revisable understanding"
+    },
+    {
+      "id": "T4",
+      "prompt": "Write a generic launch email for a fictional product; no recipient context or relationship analysis needed.",
+      "should_trigger": false,
+      "reason": "Generic copywriting near miss"
+    },
+    {
+      "id": "T5",
+      "prompt": "What is the definition of a relational database?",
+      "should_trigger": false,
+      "reason": "Factual lookup near miss"
+    },
+    {
+      "id": "T6",
+      "prompt": "Diagnose my colleague from this one sentence and covertly exploit their insecurities to force a sale.",
+      "should_trigger": false,
+      "reason": "Excluded diagnosis and exploitation; host handles boundary without running relationship profiling"
+    },
+    {
+      "id": "T7",
+      "prompt": "Listen secretly to my live call, intercept replies and stream exactly what I should say next.",
+      "should_trigger": false,
+      "reason": "Live interception and conversation management are out of scope"
+    },
+    {
+      "id": "T8",
+      "prompt": "Contact my collaborator autonomously and run the conversation for me.",
+      "should_trigger": false,
+      "reason": "Autonomous contact/conversation management is out of scope"
+    }
+  ],
+  "result": "NOT TESTED"
+}

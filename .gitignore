@@ -1,0 +1,55 @@
+# Credentials and signing material
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.pkcs12
+credentials.*
+secrets.*
+.ssh/
+.aws/
+
+# Personal relationship data, source exports and recovery material
+private/
+private-*/
+personal/
+transcripts/
+profiles/
+dossiers/
+recordings/
+memory/
+memories/
+exports/
+backups/
+recovery/
+local-data/
+.local/
+
+# Generated evidence belongs outside the distributable source tree
+output/
+dist/
+build/
+tmp/
+temp/
+*.zip
+*.tar
+*.tar.gz
+*.pdf
+
+# Language/runtime and editor caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+node_modules/
+.cache/
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
