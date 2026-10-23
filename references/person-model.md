@@ -72,3 +72,6 @@ Event time and import time differ. A January note imported in May does not super
 ## Depth and usefulness
 
 Prefer an explanation that changes a useful decision over elaborate labels that change nothing. Review tensions and exceptions, not only confirming details. Ask what the current model predicts in this context, how it could be wrong, and what observation would change the next guidance. The result should become more discriminating over time: clearer about motivations and criteria, more sensitive to context, and better able to recognize when earlier assumptions no longer apply.
+
+
+For evidence-proportional completeness and per-person source review, use the [semantic quality contract](persona-semantic-quality.md). Presentation, analytical quality and verified persistence have separate acceptance gates.

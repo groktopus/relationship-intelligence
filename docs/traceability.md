@@ -55,3 +55,7 @@ Repeated-evidence case 2 and contrary-criteria case 4 have separately observed a
 ## Persona preservation revision 0.3.0
 
 Requirement: one attributed H1 Persona section, stable contract 1.0.0 H2 ordering, substantive observation-to-hypothesis derivation, alternatives, time and adaptive inquiry. Artifacts: references/persona-output-contract.md and assets/persona-section-example.md; core and memory lifecycle route to them. Offline regression: scripts/test_persona_handoff.py checks content loss, chronology substitution, false persistence and conflicting authorities. Actual harness roundtrip evidence is recorded separately; structural checks do not establish semantic quality.
+
+## Semantic completeness refinement (local proposal)
+
+Evidence-proportional depth, individual review regardless of queue size, source coverage versus unperformed analysis, cross-conversation connections, contextual exceptions and temporal correction route through `references/persona-semantic-quality.md`, the core synthesis route and the existing Persona output contract. `evals/persona-semantic-quality.json` supplies seven synthetic contrast cases: rich skeletal/grounded, sparse bounded/padded, template-only, honestly incomplete analysis and useful narrative with pooled confidence. `scripts/test_persona_semantic_fixtures.py` verifies fixture integrity only; actual semantic review must record outputs and reasons separately. Format, analytical acceptance and persistence fidelity remain distinct gates.

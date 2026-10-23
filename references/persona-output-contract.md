@@ -32,6 +32,8 @@ Use connected paragraphs; H3 hypothesis subheadings and compact lists are option
 
 See [person model](person-model.md) for deeper reasoning, [memory lifecycle](memory-lifecycle.md) for changes and identity handling, and [synthetic example](../assets/persona-section-example.md) for the format. Examples demonstrate derivation; do not copy them as conversation scripts.
 
+Analytical acceptance is governed separately by the [semantic quality contract](persona-semantic-quality.md). Pass that source-aware review before treating a formatted proposal as complete; save fidelity cannot compensate for underanalysis.
+
 ## Handoff and semantic persistence acceptance
 
 Send the writer the actual proposed Persona prose, target canonical reference, supporting evidence, intended revisions and content to preserve. Explicitly retain interpretations as interpretations; a facts-only rule must not discard them. The writer recalls current state and reconciles the model, including stronger later evidence and user edits, rather than blindly appending the proposal.

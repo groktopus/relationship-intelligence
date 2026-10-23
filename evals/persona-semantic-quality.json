@@ -1,0 +1,124 @@
+{
+  "version": "1.0.0",
+  "kind": "synthetic semantic review cases, not automated psychological assessment",
+  "sources": {
+    "rich": [
+      {
+        "id": "G1",
+        "event_date": "2030-02-03",
+        "kind": "synthetic attributed notes",
+        "text": "Neri coordinates a shared garden. She asked to rotate weekend watering so the same two volunteers would not carry every shift. She accepted a less productive planting plan when it allowed wheelchair access. She said both choices mattered, not just the harvest."
+      },
+      {
+        "id": "G2",
+        "event_date": "2030-06-09",
+        "kind": "synthetic transcript excerpt",
+        "text": "After a dry month, Neri chose a water-saving bed layout. She rejected mandatory early-morning shifts because several volunteers had caregiving responsibilities. She proposed a short trial of an automatic valve, with a manual fallback and a weekly check. Another volunteer proposed buying a much larger system; Neri asked whether anyone could repair it locally."
+      },
+      {
+        "id": "G3",
+        "event_date": "2030-10-12",
+        "kind": "synthetic attributed notes",
+        "text": "Neri reported that the valve trial failed twice. She now preferred a simpler shared check-in until someone could maintain the valve. She corrected the suggestion that she disliked automation: she liked the saved labor, but an unattended failure could kill seedlings. She requested a picture-based instruction card for new volunteers, rather than another long meeting."
+      },
+      {
+        "id": "G2-copy",
+        "event_date": "2030-06-09",
+        "duplicate_of": "G2",
+        "kind": "synthetic quoted export",
+        "text": "Copy of G2; no additional event."
+      }
+    ],
+    "sparse": [
+      {
+        "id": "L1",
+        "event_date": "2030-01-02",
+        "kind": "synthetic message",
+        "text": "Neri: Please send me a written reminder the day before the seed delivery. Do we know the arrival window yet?"
+      }
+    ]
+  },
+  "cases": [
+    {
+      "id": "rich-skeletal",
+      "source_set": "rich",
+      "candidate": "Neri is practical and collaborative. She values fairness and likes useful tools. Confidence is moderate because several meetings support this. Ask what matters most now.",
+      "expected": "FAIL",
+      "reasons": [
+        "Loses the automation correction and temporal revision",
+        "Does not distinguish participation from retention or maintainability from novelty",
+        "Generic question has no answer-dependent update",
+        "Conversation count substitutes for evidence reasoning"
+      ]
+    },
+    {
+      "id": "rich-grounded",
+      "source_set": "rich",
+      "candidate": "Neri appears to treat participation as part of the garden outcome, not merely a resource for maximizing harvest (G1 access and workload choices; G2 scheduling exception). One explanation is equitable participation; practical volunteer retention could explain the same choices, and neither establishes a global value hierarchy. Her equipment decisions suggest conditional enthusiasm: labor-saving options are attractive when maintainable and recoverable (G2 trial and repair question). G3 narrows that account after actual failures; it does not establish hostility to technology. Her request for a picture card is task-specific onboarding guidance, not a universal dislike of meetings. Confidence is moderate for these garden-context explanations and strong for the explicit correction; all events are synthetic and G2-copy adds no support. Next preparation should distinguish whether a named maintainer and recovery plan would restore interest in automation, or whether current capacity makes manual coordination preferable regardless. Ask what would have to be dependable before revisiting the valve. A repair-and-ownership answer supports the maintainability account; a request to preserve shared contact would add a relational criterion; no available caretaker suggests a temporary capacity constraint. Do not repeat the automation-dislike premise. Also explore which part of newcomer onboarding the picture card should make easier; a language, task-sequence or attendance issue would require different support. Per interpretation: participation-as-outcome has moderate garden-context support from the access/workload choices; retention remains an alternative, and a case sacrificing access solely for yield would challenge it. Conditional equipment enthusiasm has moderate support from the trial, repair question and fallback; caretaker capacity is an alternative to a stable preference, and a dependable staffed trial she still rejects would require another account. The explicit rejection of automation-dislike is directly supported by G3. Picture-based onboarding is directly requested for this task; any broader learning preference remains unknown. Task sequence, language access and volunteer attendance are alternatives to test before extending that request to other settings.",
+      "expected": "PASS",
+      "reasons": [
+        "Connects consequential cross-context distinctions without inventing traits",
+        "Uses counterevidence and correction to narrow inference",
+        "Scopes confidence and duplicate support",
+        "Questions change guidance through explicit alternatives"
+      ]
+    },
+    {
+      "id": "sparse-bounded",
+      "source_set": "sparse",
+      "candidate": "In this one scheduling exchange Neri explicitly requested a written reminder the day before the seed delivery. That supports using a reminder for this delivery; it does not establish a general written-channel preference or a need for control. The arrival time was still uncertain, so coordination is a plausible situational explanation. Current useful action is confirm the delivery window and send the requested reminder. Broader priorities are information unavailable in this source, not evidence that she has none. No additional personality question is presently needed. The coordination explanation is tentative: uncertainty about this delivery is directly visible, but its causal role in the reminder request is not established. If she requests the same arrangement for well-specified deliveries, revise the uncertainty-only explanation; if she says this reminder is exceptional, retain the task-specific scope. No extra inquiry is required now merely to test this.",
+      "expected": "PASS",
+      "reasons": [
+        "Useful limited interpretation without unsupported generalization",
+        "Situational alternative and specific unknown",
+        "Practical action instead of forced inquiry"
+      ]
+    },
+    {
+      "id": "sparse-padded",
+      "source_set": "sparse",
+      "candidate": "Neri is highly conscientious, anxious about uncertainty, and values predictability over creativity. Her request for a reminder proves she needs frequent reassurance. Use detailed written plans in every interaction. Ask why she struggles to trust others.",
+      "expected": "FAIL",
+      "reasons": [
+        "Invents motives and broad traits from one logistics request",
+        "Leading question assumes unsupported explanation",
+        "No competing explanation or contextual scope"
+      ]
+    },
+    {
+      "id": "template-only",
+      "source_set": "rich",
+      "candidate": "# Persona\nCreated with Relationship Intelligence.\n## Integrated understanding\nNeri is thoughtful.\n## Evidence and temporal scope\nG1, G2, G3.\n## Confidence and alternatives\nModerate; context may matter.\n## Communication implications\nBe clear.\n## Adaptive questions and model updates\nWhat are your priorities?",
+      "expected": "FAIL",
+      "reasons": [
+        "Headings do not establish derivation or completeness",
+        "Citations without explanatory connections",
+        "No substantive alternatives, revision or useful tailored question"
+      ]
+    },
+    {
+      "id": "rich-unperformed",
+      "source_set": "rich",
+      "candidate": "Only G1 has been examined. A limited working account is that access and shared workload mattered in that garden decision; retention and inclusion are competing explanations. G2 and G3 remain available but unanalyzed, so the full supplied-evidence synthesis is not complete.",
+      "expected": "PARTIAL",
+      "reasons": [
+        "Honest limited account",
+        "Available unperformed analysis cannot be described as corpus insufficiency",
+        "Not accepted as completed rich-evidence model"
+      ]
+    },
+    {
+      "id": "rich-pooled-confidence",
+      "source_set": "rich",
+      "candidate": "Neri treats participation as part of the garden outcome, based on access and shared workload in G1 and scheduling in G2. Equipment choices emphasize maintainability: G2 proposed a trial and local repair; G3 failures led to a simpler fallback, not rejection of automation. The picture card in G3 addresses newcomer onboarding. Confidence in this whole model is moderate; context and volunteer retention may explain things. Ask whether a named caretaker and recovery plan would make another valve trial worthwhile; yes would support maintainability, while no caretaker suggests a capacity constraint.",
+      "expected": "FAIL",
+      "reasons": [
+        "Several useful distinct interpretations and a tailored question do not compensate for pooled confidence",
+        "Participation, equipment decisions and onboarding have different evidence strength and alternatives; these are not individually scoped",
+        "No identifiable revision conditions for the participation or onboarding interpretations",
+        "Repair by linking support, confidence, alternatives and revision conditions to each retained material interpretation; no minimum count or repeated essay required"
+      ]
+    }
+  ],
+  "review_instruction": "Review each candidate against its complete supplied source set. Record verdict and reasons before comparing with expected. No keyword, length or hypothesis-count scoring. PASS here concerns synthesis substance, not the separate Persona formatting or persistence gates. Individually inspect support, scoped confidence, alternatives and revision conditions for every retained material interpretation. A useful narrative with pooled confidence can still fail; concise integrated treatment is sufficient."
+}

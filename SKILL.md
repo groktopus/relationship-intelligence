@@ -7,7 +7,7 @@ description: >-
   reconcile changing priorities, and bootstrap or maintain relationship memory.
 license: Apache-2.0
 metadata:
-  version: "0.3.0"
+  version: "0.3.1"
 ---
 
 # Relationship Intelligence
@@ -20,7 +20,7 @@ The methods are an evidence-informed composite. Operationalize uncertainty throu
 
 Read [person model](references/person-model.md) for hypothesis formation, discriminating inquiry and longitudinal revision. Recall the relevant existing model, original evidence, recent corrections and prior answers before reasoning. Identify the person through supported identity anchors; retain ambiguous candidates separately. Distinguish direct statements, observed behavior, attributed claims and interpretations. Preserve event time and context; repeated copies or judgments over one passage are one observation.
 
-Model depth means explaining patterns and tensions, not accumulating facts. Connect evidence to plausible motivations, values and decision processes; compare situational explanations and counterexamples. State qualitative confidence with reasons. Identify a gap that could materially change understanding or guidance.
+For synthesis and acceptance, load [semantic quality](references/persona-semantic-quality.md): review each person individually, scale depth to usable evidence, and distinguish unperformed analysis from unavailable information. Model depth means explaining patterns and tensions, not accumulating facts. Connect evidence to plausible motivations, values and decision processes; compare situational explanations and counterexamples. State qualitative confidence with reasons. Identify a gap that could materially change understanding or guidance.
 
 ## PREPARE the human
 
